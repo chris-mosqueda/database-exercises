@@ -23,3 +23,26 @@ CREATE TABLE flights(
 -- SHOW TABLES;
 DESCRIBE flights;
 --SHOW CREATE TABLE flights\G;
+
+-- list of employees hired on 1987-02-23
+
+show tables;
+
+describe employees;
+
+--what do I want to see
+--select first_name, last_name
+-- from where do I get the info
+--from employees
+-- conditions
+--where hire_date = '1987-02-23';
+
+--select * from employees
+--where first_name like 'fer%';
+
+--select * from employees
+--where first_name in ('ELvis', 'Magy', 'Brendon');
+
+--select emp_no, first_name, last_name from employees
+--where emp_no < 20000 AND
+  --    (last_name IN ('Herber', 'Baek') OR first_name = 'Shridhar');
